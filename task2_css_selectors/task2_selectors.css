@@ -1,0 +1,28 @@
+.list1+.list2{
+    background-color: yellow;
+}
+
+.list3+.coding{
+    color: red;
+    border: 5px solid purple;
+}
+
+a[href$="#"]{
+    background-color: yellow;
+}
+
+.paragraph_header p:first-child{
+  background-color: blue;
+}
+
+.paragraph_header :nth-child(3){
+  background-color: green;
+}
+
+.paragraph_header p:last-child{
+  background-color: green;
+}
+
+.paragraph_header :nth-child(4){
+  color: pink;
+}
